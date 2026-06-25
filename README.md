@@ -64,17 +64,6 @@ This will generate a `dist/` directory containing the optimized static files.
 **Deploying to Netlify:**
 This project includes a `netlify.toml` file configured for single-page application (SPA) routing. You can seamlessly deploy it by connecting your GitHub repository to Netlify.
 
----
-
-## 🔐 Environment Variables
-
-If you want the Contact form to work locally, you'll need to set up your EmailJS credentials. Create a `.env` file in the root directory and add:
-
-```env
-REACT_APP_EMAILJS_SERVICE_ID=your_service_id
-REACT_APP_EMAILJS_TEMPLATE_ID=your_template_id
-REACT_APP_EMAILJS_USER_ID=your_public_key
-```
 
 ---
 
