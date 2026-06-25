@@ -4,7 +4,7 @@ import {
 } from "react-icons/fa";
 import { FaStethoscope } from "react-icons/fa";
 import {
-  SiJavascript, SiExpress, SiMongodb, SiTailwindcss, SiBootstrap, SiVercel, SiRender, SiPostman, SiNetlify
+  SiJavascript, SiExpress, SiMongodb, SiTailwindcss, SiBootstrap, SiRender, SiPostman, SiNetlify
 } from "react-icons/si";
 
 export const heroData = {
@@ -75,7 +75,7 @@ export const skillsData = [
       { name: "GitHub", icon: <FaGithub /> },
       { name: "VS Code", icon: <span className="font-bold">VS</span> },
       { name: "Postman", icon: <SiPostman /> },
-      { name: "Vercel", icon: <SiVercel /> },
+      { name: "Cloud Deploy", icon: <SiNetlify /> },
       { name: "Render", icon: <SiRender /> },
       { name: "Netlify", icon: <SiNetlify /> },
     ]
