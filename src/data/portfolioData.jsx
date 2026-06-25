@@ -181,7 +181,7 @@ export const experienceData = [
       "Service Booking Module",
       "Order Tracking",
       "Full Stack Web Development",
-      "Team Collaboration"
+      "Teamwork",
     ]
   }
 ];
