@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-white dark:bg-slate-900 text-slate-900 dark:text-white font-sans antialiased overflow-x-hidden transition-colors duration-300;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  /* Minimal custom button styles */
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-full transition-colors duration-200;
+  }
+  
+  .btn-secondary {
+    @apply inline-flex items-center justify-center px-6 py-3 bg-white dark:bg-slate-800 hover:bg-slate-50 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 border border-slate-200 dark:border-slate-700 font-medium rounded-full transition-colors duration-200 shadow-sm hover:shadow;
+  }
+
+  /* Minimal Input fields */
+  .input-field {
+    @apply w-full px-4 py-3 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500/50 focus:border-blue-500 transition-all text-slate-800 dark:text-white placeholder-slate-400 dark:placeholder-slate-500 shadow-sm;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Base Swiper fixes for any residual elements */
+.swiper-pagination-bullet {
+  background-color: #cbd5e1 !important;
+  opacity: 0.5 !important;
+}
+.swiper-pagination-bullet-active {
+  background-color: #2563EB !important;
+  opacity: 1 !important;
+}
