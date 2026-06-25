@@ -1,75 +1,85 @@
-# Dharshini Portfolio
+# Dharshini V T - Personal Portfolio
 
-A modern, **React + Vite** portfolio showcasing my projects, experience, and contact form (EmailJS integrated). The site is now hosted on **Netlify**.
+A modern, responsive, and dynamic personal portfolio built to showcase my projects, experience, and skills as a Full Stack Developer. The portfolio features a sleek design with micro-animations, glassmorphism, and a dark mode aesthetic.
 
 ---
 
-## Demo
+## 🚀 Live Demo & Local Preview
 
-- **Live site:** https://your-site-name.netlify.app *(replace with actual Netlify URL once deployed)*
-- **Local preview:** After running the dev server you can view the app at `http://localhost:5173`.
+- **Local Preview:** <http://localhost:5173>
+- **Live Site:** [Your Netlify URL Here](https://your-site-name.netlify.app) *(Update this once deployed)*
 
 ![Portfolio preview](file:///C:/Users/sanjaykumar/.gemini/antigravity-ide/brain/56c792ec-a93f-420f-a714-3c5c94afb91c/portfolio_preview_1782410567875.webp)
 
 ---
 
-## Getting Started (Local Development)
+## 🛠️ Tech Stack
 
-```bash
-# Clone the repo
-git clone https://github.com/Dharshini-8/portfolio.git
-cd portfolio
+This project is built using modern web technologies:
 
-# Install dependencies
-npm install
-
-# Run the development server
-npm run dev
-```
-
-The app will be available at **http://localhost:5173** with hot‑module replacement.
+- **Frontend Framework:** React.js
+- **Build Tool:** Vite (for fast bundling and HMR)
+- **Styling:** Tailwind CSS (utility-first, responsive, and dark mode ready)
+- **Animations:** Framer Motion (for smooth UI transitions)
+- **Background Effects:** @tsparticles/react (for interactive particle backgrounds)
+- **Forms:** EmailJS (for functional contact form without a backend)
+- **Deployment:** Netlify Ready (with `netlify.toml`)
 
 ---
 
-## Build & Deploy
+## 💻 Getting Started (Local Development)
+
+To run this project locally, follow these steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Dharshini-8/portfolio.git
+   cd portfolio
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
+
+4. **View the app:**
+   Open your browser and navigate to <http://localhost:5173>.
+
+---
+
+## 🏗️ Build & Deploy
+
+To create a production-ready build:
 
 ```bash
-# Create a production build
 npm run build
-# The output is placed in the `dist/` folder
+```
+This will generate a `dist/` directory containing the optimized static files.
+
+**Deploying to Netlify:**
+This project includes a `netlify.toml` file configured for single-page application (SPA) routing. You can seamlessly deploy it by connecting your GitHub repository to Netlify.
+
+---
+
+## 🔐 Environment Variables
+
+If you want the Contact form to work locally, you'll need to set up your EmailJS credentials. Create a `.env` file in the root directory and add:
+
+```env
+REACT_APP_EMAILJS_SERVICE_ID=service_dharshini
+REACT_APP_EMAILJS_TEMPLATE_ID=template_gyiax4h
+REACT_APP_EMAILJS_USER_ID=C2tevYIVWYZv_EXZy
 ```
 
-The project includes a `netlify.toml` file, so deploying to Netlify is as simple as:
-1. Connect the GitHub repository to Netlify.
-2. Netlify will automatically run `npm run build` and serve the `dist` folder.
-
 ---
 
-## Tech Stack
+## 📬 Contact
 
-- **React** with functional components & hooks
-- **Vite** for fast bundling and HMR
-- **Tailwind CSS** for styling (dark mode, glassmorphism, micro‑animations)
-- **Framer Motion** for smooth UI animations
-- **EmailJS** for contact‑form submissions
-- **@tsparticles/react** for particle backgrounds
-
----
-
-## Environment Variables
-
-The app expects the following variables (set in Netlify or a `.env` file for local dev):
-
-| Variable | Description |
-|----------|-------------|
-| `REACT_APP_EMAILJS_SERVICE_ID` | EmailJS service ID |
-| `REACT_APP_EMAILJS_TEMPLATE_ID` | EmailJS template ID |
-| `REACT_APP_EMAILJS_USER_ID` | EmailJS public user ID |
-
----
-
-## Screenshots
-
-*Home page, Experience timeline, Projects grid, Contact form*
-
-*(Add more screenshots if desired.)*
+- **GitHub:** [Dharshini-8](https://github.com/Dharshini-8)
+- **LinkedIn:** [Dharshini V T](https://www.linkedin.com/in/dharshini-v-t-54b675293)
+- **Email:** vtdharshini8@gmail.com
