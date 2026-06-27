@@ -1,74 +1,89 @@
-# Dharshini V T - Personal Portfolio
+# 🚀 Dharshini V T | Full Stack Developer Portfolio
 
-A modern, responsive, and dynamic personal portfolio built to showcase my projects, experience, and skills as a Full Stack Developer. The portfolio features a sleek design with micro-animations, glassmorphism, and a dark mode aesthetic.
+🔴 **[Live Demo: Portfolio](https://dharshini8-portfolio.netlify.app/)** 🔴
 
----
+Welcome to my personal developer portfolio! This is a modern, high-performance, and fully responsive single-page application built to showcase my skills, projects, experience, and achievements. It features interactive animations, a dynamic dark/light theme, and a real-time functioning contact form.
 
-## 🚀 Live Demo & Local Preview
+## 🎨 Tech Stack
+- **Frontend Framework:** React 18, Vite
+- **Styling:** Tailwind CSS (with dynamic styling using `clsx` and `tailwind-merge`)
+- **Animations:** Framer Motion, React Tilt, React Type Animation, and tsParticles (for animated backgrounds)
+- **Icons & UI:** Lucide React / React Icons, Swiper (carousels)
+- **Forms & Emails:** EmailJS (real-time form submissions without a backend)
+- **Routing:** React Router DOM
 
-- **Local Preview:** <http://localhost:5173>
-- **Live Site:** [Your Netlify URL Here](https://your-site-name.netlify.app) *(Update this once deployed)*
+## 📝 Features
+- **✨ Dynamic Animations:** Premium scroll animations and hover effects powered by Framer Motion.
+- **🌗 Theme Toggle:** Seamless switching between Light and Dark modes.
+- **✉️ Real-time Contact Form:** Fully functional contact form linked directly to EmailJS for instant email notifications.
+- **📱 Responsive Design:** Flawlessly adapts to all screen sizes (mobile, tablet, desktop).
+- **🚀 High Performance:** Built with Vite for rapid development and optimized production builds.
 
-![Portfolio preview](file:///C:/Users/sanjaykumar/.gemini/antigravity-ide/brain/56c792ec-a93f-420f-a714-3c5c94afb91c/portfolio_preview_1782410567875.webp)
+## 📂 Folder Structure
+```text
+portfolio/
+├── public/                 # Static assets (images, pdfs)
+├── src/
+│   ├── assets/             # Project-specific local assets
+│   ├── components/
+│   │   ├── layout/         # Navbar, Footer
+│   │   ├── sections/       # Hero, About, Skills, Projects, Experience, Contact
+│   │   └── ui/             # AnimatedBackground, ThemeToggle, CustomCursor
+│   ├── data/
+│   │   └── portfolioData.jsx # Centralized data for the entire portfolio
+│   ├── App.jsx             # Main Application Component
+│   ├── index.css           # Global Tailwind and custom styles
+│   └── main.jsx            # React DOM Entry Point
+├── index.html              # HTML Entry Point
+├── tailwind.config.js      # Tailwind CSS configuration
+├── vite.config.js          # Vite configuration
+├── netlify.toml            # Netlify deployment configuration
+└── package.json
+```
 
----
+## 🛠️ Setup Guide (Local Preview)
 
-## 🛠️ Tech Stack
+If you'd like to clone and run this project locally on your machine, follow these steps:
 
-This project is built using modern web technologies:
+### Prerequisites
+1. **Node.js:** Ensure Node.js is installed (`node -v` should show version >= 18).
 
-- **Frontend Framework:** React.js
-- **Build Tool:** Vite (for fast bundling and HMR)
-- **Styling:** Tailwind CSS (utility-first, responsive, and dark mode ready)
-- **Animations:** Framer Motion (for smooth UI transitions)
-- **Background Effects:** @tsparticles/react (for interactive particle backgrounds)
-- **Forms:** EmailJS (for functional contact form without a backend)
-- **Deployment:** Netlify Ready (with `netlify.toml`)
-
----
-
-## 💻 Getting Started (Local Development)
-
-To run this project locally, follow these steps:
-
-1. **Clone the repository:**
+### Installation
+1. Open a terminal and clone the repository.
+2. Navigate into the project directory:
    ```bash
-   git clone https://github.com/Dharshini-8/portfolio.git
    cd portfolio
    ```
-
-2. **Install dependencies:**
+3. Install the required dependencies:
    ```bash
    npm install
    ```
 
-3. **Run the development server:**
-   ```bash
-   npm run dev
-   ```
-
-4. **View the app:**
-   Open your browser and navigate to <http://localhost:5173>.
-
----
-
-## 🏗️ Build & Deploy
-
-To create a production-ready build:
-
+### Running Locally
+To start the Vite development server:
 ```bash
-npm run build
+npm run dev
 ```
-This will generate a `dist/` directory containing the optimized static files.
+The application will be running at `http://localhost:5173`. Open this link in your browser to preview the site.
 
-**Deploying to Netlify:**
-This project includes a `netlify.toml` file configured for single-page application (SPA) routing. You can seamlessly deploy it by connecting your GitHub repository to Netlify.
+## 🌐 Deployment Instructions
 
+This portfolio is fully optimized for continuous deployment using **Netlify**.
 
----
+1. Build the production assets:
+   ```bash
+   npm run build
+   ```
+   *This compiles optimized HTML/CSS/JS into the `dist/` folder.*
 
-## 📬 Contact
+2. **Deploying to Netlify:**
+   - The repository includes a `netlify.toml` file which automatically configures the build settings (`npm run build`) and publish directory (`dist`).
+   - Simply connect your GitHub repository to Netlify.
+   - Any pushes to the `main` branch will automatically trigger a new deployment.
 
-- **GitHub:** [Dharshini-8](https://github.com/Dharshini-8)
-- **LinkedIn:** [Dharshini V T](https://www.linkedin.com/in/dharshini-v-t-54b675293)
+## 📞 Support & Contact
+
+For inquiries or to discuss full-stack internship opportunities, you can reach me at:
 - **Email:** vtdharshini8@gmail.com
+- **LinkedIn:** [Dharshini V T](https://www.linkedin.com/in/dharshini-v-t-54b675293)
+- **GitHub:** [@Dharshini-8](https://github.com/Dharshini-8)
