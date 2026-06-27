@@ -90,7 +90,7 @@ export const projectsData = [
     tech: ["React.js", "Node.js", "Express.js", "MongoDB", "JWT Auth", "QR API"],
     features: ["Secure Authentication", "Custom Short URLs", "QR Code Generation", "Click Analytics", "URL Management", "Responsive Design"],
     liveLink: "https://fantastic-griffin-32b6bf.netlify.app/",
-    githubLink: "#",
+    githubLink: "https://github.com/Dharshini-8",
     // image removed, use icon instead
     icon: <FiLink />, 
     featured: true
@@ -102,7 +102,7 @@ export const projectsData = [
     tech: ["React.js", "HTML5", "CSS3", "JavaScript"],
     features: ["Student Portal", "Teacher Portal", "AI Chatbot", "Scholarship Module", "Internship Module", "Assessment Tracking", "Learning Analytics"],
     liveLink: "#",
-    githubLink: "#",
+    githubLink: "https://github.com/Dharshini-8",
     // image removed, use icon
     icon: <FaGraduationCap />, 
     featured: false
@@ -114,7 +114,7 @@ export const projectsData = [
     tech: ["React.js", "Node.js", "Express.js", "MongoDB"],
     features: ["Medicine Scanner", "QR Code Scanner", "Barcode Scanner", "Dosage Information", "Side Effects", "Precautions", "Healthcare Assistant"],
     liveLink: "#",
-    githubLink: "#",
+    githubLink: "https://github.com/Dharshini-8",
     // image removed, use icon
     icon: <FaStethoscope />, 
     featured: false
@@ -126,7 +126,7 @@ export const projectsData = [
     tech: ["React.js", "Vite", "Tailwind CSS", "Framer Motion", "Context API"],
     features: ["AI Chat Assistant", "Productivity Dashboard", "Task Management", "Learning Resources", "Smooth Animations", "Responsive Design"],
     liveLink: "#",
-    githubLink: "#",
+    githubLink: "https://github.com/Dharshini-8",
     // image removed, use icon
     icon: <FiZap />, 
     featured: false
@@ -138,7 +138,7 @@ export const projectsData = [
     tech: ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"],
     features: ["Student Authentication", "Company Listings", "Internship Tracking", "Interview Tracker", "Resume Management", "Placement Dashboard"],
     liveLink: "#",
-    githubLink: "#",
+    githubLink: "https://github.com/Dharshini-8",
     // image removed, use icon
     icon: <FiBriefcase />, 
     featured: false
@@ -150,7 +150,7 @@ export const projectsData = [
     tech: ["React.js", "Node.js", "Express.js", "MongoDB"],
     features: ["Laundry Booking", "Order Tracking", "Customer Dashboard", "Admin Dashboard", "Responsive UI"],
     liveLink: "#",
-    githubLink: "#",
+    githubLink: "https://github.com/Dharshini-8",
     // image removed, use icon
     icon: <FiShoppingCart />, 
     featured: false
@@ -162,7 +162,7 @@ export const projectsData = [
     tech: ["HTML5", "CSS3", "JavaScript"],
     features: ["Pet Listings", "Adoption Request", "Search & Filter", "Responsive Design"],
     liveLink: "#",
-    githubLink: "#",
+    githubLink: "https://github.com/Dharshini-8",
     // image removed, use icon
     icon: <FaPaw />, 
     featured: false
@@ -174,7 +174,7 @@ export const experienceData = [
     id: 1,
     role: "Student Intern – Full Stack Web Development",
     company: "NXTLogic Software Solutions",
-    duration: "2023 - Present",
+    duration: "06/2025 - 06/2025",
     description: "Worked on LaundryXpert – Smart Laundry Management System.",
     responsibilities: [
       "Responsive UI Development",
@@ -231,7 +231,7 @@ export const educationData = [
     major: "Computer Science and Engineering",
     institution: "Dr. N.G.P. Institute of Technology",
     score: "CGPA: 8.23",
-    year: "2022 - 2026"
+    year: "2023 - 2027"
   },
   {
     id: 2,
@@ -239,6 +239,6 @@ export const educationData = [
     major: "Computer Science",
     institution: "School Name (Add if required)",
     score: "86%",
-    year: "2020 - 2022"
+    year: "2022 - 2023"
   }
 ];
