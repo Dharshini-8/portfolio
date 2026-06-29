@@ -237,7 +237,7 @@ export const educationData = [
     id: 2,
     degree: "Higher Secondary (HSC)",
     major: "Computer Science",
-    institution: "School Name (Add if required)",
+    institution: "Kathiravan.Matric.Hr.Secondary.School,Tiruppur",
     score: "86%",
     year: "2022 - 2023"
   }
